@@ -1,0 +1,5 @@
+{
+  "name": "Byte Space",
+  "description": "FUTA's premier innovation hub and eco-friendly coworking space. Study, build, and innovate in a sustainable environment.",
+  "requestFramePermissions": ["geolocation"]
+}

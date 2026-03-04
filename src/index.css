@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #2c5281;
+  --color-accent-green: #4ade80;
+  --color-background-light: #f6f7f8;
+  --color-background-dark: #14181e;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light text-slate-900 font-sans;
+  }
+}
+
+.glass-nav {
+  background: rgba(246, 247, 248, 0.8);
+  backdrop-filter: blur(12px);
+}
+
+.eco-gradient {
+  background: linear-gradient(135deg, #2d6a4f 0%, #2c5281 100%);
+}
